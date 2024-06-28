@@ -21,7 +21,7 @@ To set up a Virtual Environment, Open a terminal or command prompt, Install virt
 
 3. Python Syntax and Semantics:
    - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
-   - #Hello, World! Program
+     
    print("Hello, World!")
 print(): A built-in function that outputs text to the console.
 "Hello, World!": A string literal enclosed in double quotes.
@@ -73,10 +73,10 @@ print(result)
 7. Lists and Dictionaries:
    - Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
    - Lists are ordered, mutable collections of items while Dictionaries are unordered collections of key-value pairs.
-#List
+List
 numbers = [1, 2, 3, 4, 5]
 print(numbers[0])  # Accessing the first element
-#Dictionary
+Dictionary
 person = {"name": "Alice", "age": 30}
 print(person["name"])  # Accessing the value associated with the key 'name'
 
@@ -84,13 +84,10 @@ print(person["name"])  # Accessing the value associated with the key 'name'
 8. Exception Handling:
    - What is exception handling in Python? Provide an example of how to use `try`, `except`, and `finally` blocks to handle errors in a Python script.
    - Exception Handling helps to manage errors gracefully and continue program execution.
-  #try
 try:
     x = 10 / 0
-#except
 except ZeroDivisionError:
     print("Cannot divide by zero")
-#finally
 finally:
     print("Execution complete")
 
@@ -98,7 +95,7 @@ finally:
 9. Modules and Packages:
    - Explain the concepts of modules and packages in Python. How can you import and use a module in your script? Provide an example using the `math` module.
    - Modules are files containing Python code while Packages are collections of modules.
-   #importing a module
+   - importing a module
 import math
 
 print(math.sqrt(16))
@@ -107,12 +104,12 @@ print(math.sqrt(16))
 
 10. File I/O:
     - How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
-       #reading from a file
+       reading from a file
     with open('example.txt', 'r') as file:
     content = file.read()
     print(content)
 
-#writing to a file
+writing to a file
 data = ["Line 1", "Line 2", "Line 3"]
 with open('output.txt', 'w') as file:
     for line in data:
